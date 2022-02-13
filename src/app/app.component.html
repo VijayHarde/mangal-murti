@@ -1,0 +1,93 @@
+<nav class="navbar navbar-expand-lg background-primary">
+    <a class="navbar-brand" href="#">
+        <img src="/assets/ganesh.svg" height="70" width="70">
+    </a>
+    <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="bi bi-list" style="color: white;"></i></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="width: 100%; justify-content: flex-end;" >
+        <li class="nav-item active">
+          <a class="nav-link link" [routerLink]="['home']" routerLinkActive="router-link-active" >Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/services']" routerLinkActive="router-link-active" >services</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/our-network']" routerLinkActive="router-link-active" >our network</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/faq']" routerLinkActive="router-link-active" >faq's</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/gallery']" routerLinkActive="router-link-active" >gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/about-us']" routerLinkActive="router-link-active" >about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact Us</a>
+          </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+
+<router-outlet></router-outlet>
+
+<div class="footer-container">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Address</h3>
+          <p>
+            A108 Adam Street <br>
+            Hinjewadi Pune<br>
+             India <br><br>
+            <strong>Phone:</strong> +1 5589 5548854mm 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li> <a href="#" class="anchor" >Home</a></li>
+            <li> <a href="#" class="anchor" >Services</a></li>
+            <li> <a href="#" class="anchor" >Photos</a></li>
+            <li> <a href="#" class="anchor" >About</a></li>
+            <li> <a href="#" class="anchor" >Contact Us</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li> <a href="#" class="anchor">Web Design</a></li>
+            <li> <a href="#" class="anchor">Web Development</a></li>
+            <li> <a href="#" class="anchor">Product Management</a></li>
+            <li> <a href="#" class="anchor">Marketing</a></li>
+            <li> <a href="#" class="anchor">Graphic Design</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 social-links">
+          <h4>Our Social Networks</h4>
+          <p>Example fjvb djnw oierf ejinnf iefn eifdn einfeo nwocn odnfe oewfnveo ndolfneo dfneofn edpjfn ow nhfdoinhfen oefn</p>     
+        <div>
+          <a href=""><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-google"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
