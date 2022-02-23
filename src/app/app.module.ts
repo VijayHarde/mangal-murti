@@ -10,6 +10,8 @@ import { OurNetworkComponent } from './our-network/our-network.component';
 import { FaqComponent } from './faq/faq.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
+    CommonModule,
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
   ],

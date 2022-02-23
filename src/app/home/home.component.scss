@@ -1,34 +1,22 @@
-// section {
-//     padding: 100px 0;
-// }
-p {
-    padding: 0 0 10px 0;
-    margin: 0;
-    color: #6b6b6b;
-    line-height: 26px;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-}
 ul {
-    list-style-type: none;
-}
-li {
-    font-size: 18px;
-}
-
-.services{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.card-title{
-    background-color: var(--primary-color);
-    padding: 2%;
+    li {
+        font-size: x-large;
+    }
 }
 
+.slide {
+    padding-bottom: 15px;
+}
 
-
-
-
-
-
+.work-process-container {
+    text-align: center;
+    background: var(--primary-color);
+    color: white;
+    margin-bottom: 1%;
+    table {
+        width: 100%;
+        img {
+            border-radius: 50%;
+        }
+    }
+}

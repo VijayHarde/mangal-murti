@@ -28,10 +28,16 @@
 
 .link {
     background: transparent;
-    color: #242424;
+    // color: #242424;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+}
 
+.sticky {
+  position: sticky;
+  z-index: 10;
+  top: 0;
 }
